@@ -150,6 +150,7 @@ namespace FormWithButton
             Console.WriteLine(this.Width);
             textbox1.Width = this.Width;
             panel.Width = this.Width;
+            panel.Height = this.Height - 100;
 
             foreach (Label lb in label_arr)
             {
